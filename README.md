@@ -36,7 +36,7 @@ This bot accesses the Reddit Data API under the following conditions:
 | Read-only | Only `GET` requests. No posting, voting, or commenting |
 | Personal use | Single user, private server, never distributed |
 | Rate limiting | 1 request per subreddit per 60 seconds minimum |
-| User-Agent | `discord-notifier:personal-monitor:v1.0 (by /u/USERNAME)` |
+| User-Agent | `discord-notifier:personal-monitor:v1.0 (by /u/mhero18)` |
 | Data retention | Post IDs stored locally for deduplication only, capped at 500 per monitor |
 | Deleted content | Never retained or logged |
 | No resale | Data is never stored, sold, or shared with third parties |
@@ -69,7 +69,7 @@ This bot accesses the Reddit Data API under the following conditions:
 ### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/mhero18/hero-discord-bot.git
 cd YOUR_REPO
 pip install -r requirements.txt
 cp .env.example .env
